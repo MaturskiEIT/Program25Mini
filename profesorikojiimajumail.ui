@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProfesoriKojiImajuMail</class>
+ <widget class="QDialog" name="ProfesoriKojiImajuMail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Profesori koji imaju mail</string>
+  </property>
+  <widget class="QLabel" name="labelMesec">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mesec</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelGodina">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Godina</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxMesec">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>80</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>12</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxGodina">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>50</y>
+     <width>80</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>2010</number>
+   </property>
+   <property name="maximum">
+    <number>2020</number>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>300</width>
+     <height>200</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonPrikazi">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Prikazi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonNacrtaj">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nacrtaj</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonIzadji">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Izadji</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>339</x>
+     <y>19</y>
+     <width>441</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
